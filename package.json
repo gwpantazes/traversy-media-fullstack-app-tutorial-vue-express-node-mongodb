@@ -2,6 +2,7 @@
   "name": "fullstack_vue_express",
   "version": "1.0.0",
   "description": "Fullstack Vue Express Node MongoDB app follwed from youtube tutorial at https://youtu.be/j55fHUJqtyw.",
+  "private": true,
   "main": "index.js",
   "type": "module",
   "scripts": {
