@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Post msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <Post msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
-import Post from './components/Post.vue'
+import Post from "./components/Post.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Post
   }
-}
+};
 </script>
 
 <style>
