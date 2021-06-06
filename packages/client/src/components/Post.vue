@@ -101,13 +101,20 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+import PostService from '../services/PostService'
+
+PostService.getPosts()
+  .then(result => { console.log("Got posts", result); })
+  .catch(error => { console.log("Error get posts", error) })
+  .finally(() => { console.log("Finished get posts")})
+
 
 @Options({
   props: {
     msg: String
   }
 })
-export default class HelloWorld extends Vue {
+export default class Post extends Vue {
   msg!: string
 }
 </script>
