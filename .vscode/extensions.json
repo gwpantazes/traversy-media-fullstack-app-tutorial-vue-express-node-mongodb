@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "dbaeumer.jshint",
+        "dbaeumer.vscode-eslint",
+        "octref.vetur"
+    ]
+}

@@ -1,6 +1,7 @@
 {
-  "name": "client",
+  "name": "fullstack-tutorial-vue-client",
   "version": "0.1.0",
+  "description": "The web frontend client package using Vue as the frontend framework.",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

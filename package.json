@@ -1,27 +1,11 @@
 {
-  "name": "fullstack_vue_express",
-  "version": "1.0.0",
-  "description": "Fullstack Vue Express Node MongoDB app follwed from youtube tutorial at https://youtu.be/j55fHUJqtyw.",
+  "name": "fullstack-app-tutorial",
+  "version": "0.1.0",
+  "description": "Fullstack Vue Express Node MongoDB app from YouTube tutorial at https://youtu.be/j55fHUJqtyw.",
   "private": true,
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docker-compose-mongo-up": "docker compose -f docker-compose-mongodb.yml up",
-    "docker-compose-mongo-down": "docker compose -f docker-compose-mongodb.yml down"
-  },
   "author": "George Pantazes",
   "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.9"
-  },
   "devDependencies": {
-    "jshint": "^2.13.0",
-    "nodemon": "^2.0.7"
+    "jshint": "^2.13.0"
   }
 }

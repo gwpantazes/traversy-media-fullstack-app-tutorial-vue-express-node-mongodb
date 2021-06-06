@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "name": "root",
+            "path": ".."
+        },
+        {
+            "path": "../packages/client"
+        },
+        {
+            "path": "../packages/server"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "node_modules/": true,
+            "packages/": true
+        },
+        "jshint.lintHTML": true
+    }
+}
